@@ -1,0 +1,12 @@
+{
+  "name": "tp1-seminario-actualizacion",
+  "version": "1.0.0",
+  "description": "TP1 - Sitio web con input de texto y cambio de colores implementado con servidor Node.js",
+  "main": "servidor.js",
+  "type": "module",
+"scripts": {
+  "start": "node implementacion2/servidor.js"
+  },
+  "author": "Anahi Jacqueline Perez",
+  "license": "ISC"
+}
