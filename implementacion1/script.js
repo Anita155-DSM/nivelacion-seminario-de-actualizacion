@@ -9,10 +9,8 @@ let estadoActual = 0;
 if (input) {
     input.addEventListener("keydown", function(event) {
         if (event.key === "Enter") {
-            alert("¡Has presionado Enter!");
-        } else {
-            console.log("no se presionó enter/u error")
-        }
+            alert(input.value);
+        } 
     });
 }
 
@@ -20,7 +18,7 @@ if (input) {
 
 if (boton) {
     boton.addEventListener("click", function() {
-        
+
         // Cambiar colores según el estado actual
         if (estadoActual === 0) {
             // Estado 0: fondo blanco, texto negro
